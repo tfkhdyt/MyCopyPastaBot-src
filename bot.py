@@ -3,7 +3,7 @@ import time
 import os
 from flask import Flask, request
 
-token = "1701851982:AAHOgFBpxCW-3rCAncr2T2xeJKngPVlDoCA"
+token = ""
 bot = telebot.TeleBot(token)
 server = Flask(__name__)
 
